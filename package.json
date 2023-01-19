@@ -1,0 +1,15 @@
+{
+  "name": "advent-of-code-solution-scraper",
+  "version": "1.0.0",
+  "description": "CLI tool that searchs public Github repos for code solutions. End goal is to build a comparison website so you can see how other people solved the same problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^19.0.5",
+    "dotenv": "^16.0.3"
+  }
+}
